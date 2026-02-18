@@ -937,7 +937,7 @@
       "Business Rule Parameters": "비즈니스 규칙 매개변수",
       "Buydown Fee classifications to Income accounts": "소득 계정에 대한 Buydown 수수료 분류",
       "Capitalized Income classifications to Income accounts": "자본화된 소득 분류를 소득 계정으로",
-      "COB Catch-Up is": "COB 따라잡기는",
+      "COB Catch-Up is": "사업 종료 따라잡기는",
       "Calculate Interest": "이자 계산",
       "Campaign Message": "캠페인 메시지",
       "Capture Client Image": "클라이언트 이미지 캡처",
@@ -1299,6 +1299,11 @@
       "Pending Tasks": "보류 중인 작업"
     },
     "inputs": {
+      "Floating rate": "변동 금리",
+      "Differential rate": "차등 금리",
+      "Minimum interest rate": "최소 이자율",
+      "Interest rate": "이자율",
+      "Maximum interest rate": "최대 이자율",
       "Terms": "약관",
       "Settings": "설정",
       "accounting": {
@@ -1452,7 +1457,7 @@
       "Bussiness Rule": "비즈니스 규칙",
       "CAMPAIGN": "운동",
       "CHARGES": "요금",
-      "COB Date": "옥수수 속 날짜",
+      "COB Date": "사업 종료 날짜",
       "CSV format": "CSV 형식",
       "CURRENCY": "통화",
       "Calculate interest for exact days in partial period": "부분 기간의 정확한 날짜에 대한 이자를 계산합니다.",
@@ -1642,6 +1647,7 @@
       "Decimals to Display": "표시할 소수점",
       "Default": "기본",
       "Default Date Format": "기본 날짜 형식",
+      "Default Datetime Format": "기본 날짜 및 시간 형식",
       "Default Font": "기본 글꼴",
       "Default Language": "기본 설정 언어",
       "Default Savings Account": "기본 저축 계좌",
@@ -2691,6 +2697,7 @@
       "Working with Code": "코드 작업"
     },
     "menus": {
+      "Unassign Staff": "직원 할당 해제",
       "Accounting": "회계",
       "Account Overview": "계정 개요",
       "Activate": "활성화",
@@ -3258,7 +3265,7 @@
       "Manage Offices page allows you to create, edit": "사무실 관리 페이지에서는 조직 내 사무실을 생성, 편집, 추가할 수 있습니다.",
       "Manage Reports": "보고서 관리",
       "Manage Schedule and Workflow jobs, modify jobs": "일정 및 워크플로 작업 관리, 작업 수정, 기록 및 로그 보기",
-      "Manage Scheduler and COB Jobs": "스케줄러 및 COB 작업 관리",
+      "Manage Scheduler and COB Jobs": "스케줄러 및 사업 종료 작업 관리",
       "Manage Surveys": "설문조사 관리",
       "Manage Tax Components": "세금 구성요소 관리",
       "Manage Tax Configurations": "세금 구성 관리",
@@ -3608,7 +3615,19 @@
       "Login": "로그인"
     },
     "messages": {
-      "No Data Found": "데이터를 찾을 수 없음"
+      "No Data Found": "데이터를 찾을 수 없음",
+      "No Upcoming Charges Available": "예정된 청구가 없습니다",
+      "No Active Loan Accounts Available": "활성 대출 계정이 없습니다",
+      "No Closed Loan Accounts Available": "해지된 대출 계정이 없습니다",
+      "No Active Saving Accounts Available": "활성 저축 계정이 없습니다",
+      "No Closed Saving Accounts Available": "해지된 저축 계정이 없습니다",
+      "No Active Fixed Deposit Accounts Available": "활성 정기 예금 계정이 없습니다",
+      "No Closed Fixed Deposit Accounts Available": "해지된 정기 예금 계정이 없습니다",
+      "No Active Recurring Deposit Accounts Available": "활성 적립식 예금 계정이 없습니다",
+      "No Closed Recurring Deposit Accounts Available": "해지된 적립식 예금 계정이 없습니다",
+      "No Active Share Accounts Available": "활성 주식 계정이 없습니다",
+      "No Closed Share Accounts Available": "해지된 주식 계정이 없습니다",
+      "No Collateral Data Available": "담보 데이터가 없습니다"
     }
   },
   "languages": {
@@ -3679,7 +3698,7 @@
     "Edit Period": "기간 편집",
     "Edit Standing Instruction": "상임 지시사항 편집",
     "Edit the Business Date": "영업일 편집",
-    "Edit the COB Date": "COB 날짜 편집",
+    "Edit the COB Date": "사업 종료 날짜 편집",
     "Enabled": "활성화됨",
     "Enables definition and tracking inactive": "비활성 저축 계좌 정의 및 추적 가능",
     "Enable or disable the auto repayment of down-payment.": "계약금 자동 상환을 활성화하거나 비활성화합니다. '계약금 자동 상환'이 활성화되면 지불은 계약금 금액에 대한 자동 계약금 거래를 시작합니다.",
