@@ -90,6 +90,14 @@
   window['env']['mifosInterbankTransfersApiVersion'] = '';
   window['env']['mifosInterbankTransfersEnabled'] = 'true';
 
+  // Remittance Module Environment variables
+  window['env']['mifosRemittanceApiClientUrl'] = '';
+  window['env']['mifosRemittanceApiProvider'] = '';
+  window['env']['mifosRemittanceApiVersion'] = '';
+  window['env']['mifosRemittanceEnabled'] = false;
+  window['env']['mifosRemittanceApiClientHeader'] = '';
+  window['env']['mifosRemittanceApiClientKey'] = '';
+
   // Enable Role-Based Access Control (RBAC) for menu/button permissions
   // Set to true to enable RBAC, false (default) for backward compatibility
   window['env']['productionModeEnableRBAC'] = false;
